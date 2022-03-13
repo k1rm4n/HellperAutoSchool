@@ -35,9 +35,10 @@ namespace HellperAutoSchool
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(784, 461);
+            this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "Main";
+            this.Text = "Админ панель";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
 
