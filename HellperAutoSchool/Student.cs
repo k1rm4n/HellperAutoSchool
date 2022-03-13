@@ -13,7 +13,7 @@ namespace HellperAutoSchool
     {
         DataGridView tableStudents = new DataGridView()
         {
-            Location = new Point(30, 30),
+            Location = new Point(0, 50),
             Width = 750,
             Height = 400,
             AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCells,
@@ -22,8 +22,8 @@ namespace HellperAutoSchool
 
         GroupBox groupBox = new GroupBox()
         {
-            Location = new Point(785, 100),
-            Width = 192,
+            Location = new Point(0, 0),
+            Width = 122, Height = 55,
             Text = "Инструменты"
         };
 
