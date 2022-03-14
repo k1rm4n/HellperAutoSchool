@@ -1,16 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using MySql.Data.MySqlClient;
 using System.Windows.Forms;
 using System.Drawing;
 using System.Data;
-using System.IO;
 using System.Collections;
 
 namespace HellperAutoSchool
 {
-    class Student : DateBaseConnect
+    class Student : DataBaseConnect
     {
         DataGridView tableStudents = new DataGridView()
         {
@@ -149,7 +146,7 @@ namespace HellperAutoSchool
 
                 tableStudents.DataSource = dataTable;
 
-                string[] arrayNames = new string[] { "Id", "Фамилия", "Имя", "Категория", "Индекс интруктора", "Индекс учителя" };
+                string[] arrayNames = new string[] { "Id", "Фамилия", "Имя", "Категория", "Код интруктора", "Код учителя" };
 
                 for (int i = 0; i < tableStudents.Columns.Count; i++)
                 {
