@@ -31,7 +31,7 @@ namespace HellperAutoSchool
             Location = new Point(10, 20),
             Width = 25,
             Height = 25,
-            BackgroundImage = Image.FromFile("C:/Users/lal-m/source/repos/HellperAutoSchool/HellperAutoSchool/Photo/add.png"),
+            BackgroundImage = Resource.add,
             BackgroundImageLayout = ImageLayout.Stretch,
             FlatStyle = FlatStyle.Flat
         };
@@ -41,7 +41,7 @@ namespace HellperAutoSchool
             Location = new Point(38, 20),
             Width = 25,
             Height = 25,
-            BackgroundImage = Image.FromFile("C:/Users/lal-m/source/repos/HellperAutoSchool/HellperAutoSchool/Photo/delete.png"),
+            BackgroundImage = Resource.delete,
             BackgroundImageLayout = ImageLayout.Stretch,
             FlatStyle = FlatStyle.Flat
         };
@@ -51,7 +51,7 @@ namespace HellperAutoSchool
             Location = new Point(65, 20),
             Width = 25,
             Height = 25,
-            BackgroundImage = Image.FromFile("C:/Users/lal-m/source/repos/HellperAutoSchool/HellperAutoSchool/Photo/edit.png"),
+            BackgroundImage = Resource.edit,
             BackgroundImageLayout = ImageLayout.Stretch,
             FlatStyle = FlatStyle.Flat
         };
@@ -61,7 +61,7 @@ namespace HellperAutoSchool
             Location = new Point(90, 20),
             Width = 25,
             Height = 25,
-            BackgroundImage = Image.FromFile("C:/Users/lal-m/source/repos/HellperAutoSchool/HellperAutoSchool/Photo/update.png"),
+            BackgroundImage = Resource.update,
             BackgroundImageLayout = ImageLayout.Stretch,
             FlatStyle = FlatStyle.Flat
         };
