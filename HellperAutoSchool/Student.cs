@@ -123,6 +123,7 @@ namespace HellperAutoSchool
             form.Controls.Remove(btnDelete);
             form.Controls.Remove(btnEdit);
             form.Controls.Remove(btnUpdate);
+            form.Controls.Remove(groupBox);
 
             btnAdd.Click -= BtnAdd_Click;
             btnDelete.Click -= BtnDelete_Click;

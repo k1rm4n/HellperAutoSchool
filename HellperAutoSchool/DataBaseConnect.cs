@@ -7,11 +7,11 @@ namespace HellperAutoSchool
 {
     class DataBaseConnect
     {
-        protected static string conString = "server=87.249.53.69;user=krotov;database=krotov;password=D8YHK6ga!;charset=utf8";
+        public string conString = "server=87.249.53.69;user=krotov;database=krotov;password=D8YHK6ga!;charset=utf8";
 
-        protected MySqlConnection connection;
+        public MySqlConnection connection;
 
-        protected MySqlDataAdapter Adapter(string query)
+        public MySqlDataAdapter Adapter(string query)
         {
             return new MySqlDataAdapter(query, connection);
         }
