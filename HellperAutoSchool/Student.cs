@@ -148,7 +148,8 @@ namespace HellperAutoSchool
 
                 tableStudents.DataSource = dataTable;
 
-                string[] arrayNames = new string[] { "Id", "Фамилия", "Имя", "Категория", "Код интруктора", "Код учителя" };
+                string[] arrayNames = new string[] { "Id", "Фамилия", "Имя", 
+                    "Категория", "Код интруктора", "Код учителя" };
 
                 for (int i = 0; i < tableStudents.Columns.Count; i++)
                 {
@@ -165,7 +166,8 @@ namespace HellperAutoSchool
             {
                 int lastIndexRow = tableStudents.Rows.Count - 2;
 
-                string query = "INSERT Students(lastname, firstname, category, id_instruct, id_teacher) VALUES(@lastname, @firstname, @category, @id_instruct, @id_teacher)";
+                string query = "INSERT Students(lastname, firstname, category, id_instruct, id_teacher) " +
+                    "VALUES(@lastname, @firstname, @category, @id_instruct, @id_teacher)";
 
                 MySqlCommand cmd = new MySqlCommand(query, connection);
 

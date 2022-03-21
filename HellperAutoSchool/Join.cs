@@ -21,9 +21,9 @@ namespace HellperAutoSchool
         public void AddTableJoins(Form form)
         {
             form.Controls.Add(tableJoin);
-            /*ShowTableStudents();*/
-            /*ShowTableClassTime();*/
-            ShowTableInstructors();
+            /*ShowTableStudents();
+            ShowTableClassTime();
+            ShowTableInstructors();*/
         }
 
         public void ClearTable()
@@ -90,7 +90,8 @@ namespace HellperAutoSchool
         {
             using (connection = new MySqlConnection(conString))
             {
-                string query = $"SELECT i.lastname, i.firstname, s.lastname, s.firstname, s.category, c.mark, c.model, c.color FROM Students AS s " +
+                string query = $"SELECT i.lastname, i.firstname, s.lastname, s.firstname, " +
+                    $"s.category, c.mark, c.model, c.color FROM Students AS s " +
                     $"LEFT JOIN Instructors AS i ON i.id = s.id_instruct " +
                     $"LEFT JOIN Cars AS c ON c.id = i.id_car"; 
 

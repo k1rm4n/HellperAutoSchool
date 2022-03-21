@@ -93,7 +93,7 @@
             this.Controls.Add(this.TBLogin);
             this.Name = "Registration";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Registration";
+            this.Text = "Регистрация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

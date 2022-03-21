@@ -108,7 +108,7 @@
             this.Controls.Add(this.TBLogin);
             this.Name = "Autorization";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Autorization";
+            this.Text = "Авторизация";
             this.ResumeLayout(false);
             this.PerformLayout();
 

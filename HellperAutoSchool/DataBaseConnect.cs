@@ -7,7 +7,7 @@ namespace HellperAutoSchool
 {
     class DataBaseConnect
     {
-        public string conString = "server=87.249.53.69;user=krotov;database=krotov;password=D8YHK6ga!;charset=utf8";
+        public string conString = "server=dev.gameoxford.ru;user=krotov;database=krotov;password=2V5xK@t!a;charset=utf8";
 
         public MySqlConnection connection;
 

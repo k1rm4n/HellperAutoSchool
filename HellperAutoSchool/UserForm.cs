@@ -22,7 +22,7 @@ namespace HellperAutoSchool
             join.AddTableJoins(this);
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        private void ListUsers_SelectedIndexChanged(object sender, EventArgs e)
         {
             string comboBoxState = comboBox1.Items[comboBox1.SelectedIndex].ToString();
 
